@@ -1,12 +1,14 @@
-//Create variables here
+var dog;
 
 function preload()
 {
-	//load images here
+	dogimg=loadImage("Dog.png");
+  dog2img=loadImage("happydog.png");
 }
 
 function setup() {
 	createCanvas(800, 700);
+  dog=createSprite(400,350,10,10);
   
 }
 
@@ -14,8 +16,7 @@ function setup() {
 function draw() {  
 
   drawSprites();
-  //add styles here
-
+  
 }
 
 
