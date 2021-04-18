@@ -9,12 +9,13 @@ function preload()
 function setup() {
 	createCanvas(800, 700);
   dog=createSprite(400,350,10,10);
+  dog.addImage(dogimg);
   
 }
 
 
 function draw() {  
-
+ backgroundcolor="red";
   drawSprites();
   
 }
